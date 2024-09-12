@@ -11,33 +11,30 @@ header {
   border-bottom: 3px solid #ff6347; /* Darker shade for the bottom border */
 }
 
-.image {
-  object-fit: cover;
-  float: left;
-  margin-right: 12px;
-  border-radius: 12px;
+h1 {
+  text-align: center;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
 }
 
-.content {
-  overflow: hidden;
-  padding: 20px;
-}
-
-.category-table {
+.food-table {
   text-align: center;
   margin: 12px;
 }
 
-.category-table img {
-  border-radius: 12px;
-}
-.category-table button {
+.food-table button {
   background-color: #ff6347;
   border-color: white;
   border-radius: 12px;
   color: #ddd;
   width: 100px;
   height: 50px;
+}
+
+.food-table img {
+  border-radius: 12px;
 }
 
 a {
@@ -49,15 +46,8 @@ a:hover {
   color: #ccc; /* Changes color when hovering, you can customize this */
 }
 
-.category-table table td {
+.food-table table td {
   padding: 30px;
-}
-
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: left;
-  margin: 0;
-  line-height: 1.6;
 }
 
 .navbar {
@@ -105,7 +95,7 @@ nav ul li a:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #2f4f4f;
+  background-color: #708090;
   border-top: 2px solid #ddd;
 }
 
