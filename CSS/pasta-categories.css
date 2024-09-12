@@ -11,6 +11,45 @@ header {
   border-bottom: 3px solid #ff6347; /* Darker shade for the bottom border */
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.food-table {
+  text-align: center;
+  margin: 12px;
+}
+
+.food-table button {
+  background-color: #ff6347;
+  border-color: white;
+  border-radius: 12px;
+  color: #ddd;
+  width: 100px;
+  height: 50px;
+}
+
+.food-table img {
+  border-radius: 12px;
+}
+
+a {
+  color: white;
+  text-decoration: none; /* Removes the underline (optional) */
+}
+
+a:hover {
+  color: #ccc; /* Changes color when hovering, you can customize this */
+}
+
+.food-table table td {
+  padding: 30px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
