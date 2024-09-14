@@ -94,15 +94,25 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+a {
+  color: white;
+  text-decoration: none; /* Removes the underline (optional) */
+}
+
+a:hover {
+  color: #ccc; /* Changes color when hovering, you can customize this */
+}
+
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #2f4f4f;
+  background-color: #708090;
   border-top: 2px solid #ddd;
 }
 
 footer h2 {
   margin-bottom: 10px;
+  color: black;
 }
 
 footer img {
