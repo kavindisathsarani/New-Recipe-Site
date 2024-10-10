@@ -65,6 +65,12 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff7f50;
+  padding: 20px;
 }
 
 .navbar h1 {

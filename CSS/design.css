@@ -7,8 +7,14 @@ body {
 header {
   background-color: #ff7f50; /* Tomato color */
   color: white;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   border-bottom: 3px solid #ff6347; /* Darker shade for the bottom border */
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff7f50;
+  padding: 20px;
 }
 
 img {
